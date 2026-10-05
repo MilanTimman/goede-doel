@@ -1,0 +1,37 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  background: rgb(253, 125, 54);
+}
+
+.logo {
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border-radius: 30px;
+  border: 10px solid white;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+header nav {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+header nav div {
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#special {
+    background-color: white;
+    border-radius: 30px;
+    border: 10px solid white;
+    margin-top: 5px;
+}
+
