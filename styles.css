@@ -61,6 +61,38 @@ body {
   padding: 6px 16px;
 }
 
+.hero h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 10px 0px 0px 10px;
+  max-width: 220px;
+}
 
+.hero h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
 
+.hero p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+.hero p {
+  padding: 20px;
+  margin: 20px 0px 0px 10px;
+}
+   
+.pnummer2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  max-width: 370px; 
+}
 
