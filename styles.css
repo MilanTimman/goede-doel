@@ -9,21 +9,33 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 12px 24px;
-  background: rgb(253, 125, 54);
+  background: white;
+  margin-top: -10px;
 }
 
 .logo {
   color: rgb(0, 0, 0);
-  background-color: white;
+  background-color: rgb(253, 125, 54);
   padding: 4px 10px;
   border-radius: 20px;
-  border: 3px solid white;
+  border: 3px solid rgb(253, 125, 54);
   font-size: 22px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar {
   height: 0%;
 }
+
+.zwarte-lijn {
+  border: none;
+  height: 2px;
+  background-color: black;
+  width: 100%;
+  margin-top: -10px;
+}
+
 
 .navbar ul {
   list-style: none;
@@ -38,14 +50,15 @@ body {
 .navbar li {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
+  font-weight: bold;
   color: black;
 }
 
 .navbar .donate {
-  background-color: white;  /* witte vulling */
-  border: 3px solid white;  /* witte rand */
-  padding: 6px 16px;
+  background-color: rgb(253, 125, 54);
+  border: 3px solid rgb(253, 125, 54);
   border-radius: 30px;
+  padding: 6px 16px;
 }
 
 
