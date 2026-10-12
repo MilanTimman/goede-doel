@@ -1,31 +1,28 @@
 body {
-  padding: 0%;
-  margin: 0%;
+  padding: 0;
+  margin: 0;
+  width: 1440;
+  height: 820;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 24px;
+  padding: 20px 50px;
   background: white;
-  margin-top: -10px;
 }
 
 .logo {
-  color: rgb(0, 0, 0);
   background-color: rgb(253, 125, 54);
-  padding: 4px 10px;
-  border-radius: 20px;
-  border: 3px solid rgb(253, 125, 54);
-  font-size: 22px;
+  color: black;
+  padding: 6px 18px;
+  border-radius: 10px;
+  border: 10px solid rgb(253, 125, 54);
+  font-size: 24px;
   font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.navbar {
-  height: 0%;
+  transform: translateY(-20px);
 }
 
 .zwarte-lijn {
@@ -33,46 +30,53 @@ body {
   height: 2px;
   background-color: black;
   width: 100%;
-  margin-top: -10px;
+  margin-top: -40px;
 }
 
 
 .navbar ul {
   list-style: none;
   display: flex;
-  flex-direction: row;
-  gap: 20px;
+  gap: 35px;
   padding: 0;
   margin: 0;
+  margin-top: -40px;
   align-items: center;
 }
 
 .navbar li {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: bold;
-  color: black;
 }
 
 .navbar .donate {
   background-color: rgb(253, 125, 54);
-  border: 3px solid rgb(253, 125, 54);
+  color: black;
+  padding: 8px 18px;
   border-radius: 30px;
-  padding: 6px 16px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    max-height: 450px;
+    flex-direction: row-reverse;
 }
 
 .hero h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
-  margin: 10px 0px 0px 10px;
-  max-width: 220px;
-}
+  padding: 5px;
+  margin: 10px 0px 0px 5px;
+  max-width: 500px;
 
-.hero h1 {
+
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
+  font-size: 60px;
   font-weight: bold;
   color: black;
 }
@@ -80,14 +84,21 @@ body {
 .hero p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
-  font-weight: bold;
+  font-weight: none;
   color: black;
+
+
+  padding: 5px;
+  margin: 10px 0px 0px 5px;
 }
-.hero p {
-  padding: 20px;
-  margin: 20px 0px 0px 10px;
+
+.herotext {
+  width: 100%;
+  max-height: 350px;
+  margin-top: -65px;
+  margin-left: 50px;
 }
-   
+
 .pnummer2 {
   display: flex;
   justify-content: center;
@@ -96,3 +107,39 @@ body {
   max-width: 370px; 
 }
 
+.aapfoto {
+  height: auto;
+  width: 450px;
+  margin-right: 170px;
+  transform: translateX(-500px);
+  transform: translateY(30px);
+}
+
+.knoppies {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 12px 22px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.knoppie1 {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: rgb(253, 125, 54);
+  border: 10px solid rgb(253, 125, 54);
+  border-radius: 30px;
+  color: black;
+}
+
+.knoppie2 {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: rgb(253, 125, 54);
+  border: 10px solid rgb(253, 125, 54);
+  border-radius: 30px;
+  color: black;
+}
