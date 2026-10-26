@@ -94,7 +94,6 @@ body {
 }
 
 .hero-p {
-
   font-size: 20px;
   max-width: 500px; 
 }
@@ -260,10 +259,17 @@ body {
 .amount-buttons button {
     border: none;
     background: #F7F3E8;
-    padding: 22px 10px;
+    padding: 5px 10px;
     border-radius: 12px;
     font-size: 20px;
     font-weight: 700;
-    color: #2d4437;
+    color: #000;
     cursor: pointer;
+}
+
+.help-button {
+    background: #e38541;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 10px;
 }
