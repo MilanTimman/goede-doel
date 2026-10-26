@@ -190,3 +190,80 @@ body {
     font-size: 20px;
     font-weight: bold;
 }
+
+.support-section {
+    padding: 80px 20px;
+    background-color: #fff;
+}
+
+.support-content {
+    max-width: 1100px;
+    max-height: 400px;
+    margin: 0 auto;
+    background-color: #73afd0;
+    border-radius: 40px;
+    padding: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.support-text {
+    flex: 1;
+    color: white;
+}
+
+.support-label {
+    display: inline-block;
+    margin-bottom: 25px;
+    color: #e38541;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.support-text h2 {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    max-width: 600px;
+}
+
+.support-text p {
+    font-size: 20px;
+    line-height: 1.5;
+    max-width: 650px;
+}
+
+.donation-card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 35px;
+    width: 500px;
+}
+
+.donation-card h3 {
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+.amount-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+.amount-buttons button {
+    border: none;
+    background: #F7F3E8;
+    padding: 22px 10px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2d4437;
+    cursor: pointer;
+}
