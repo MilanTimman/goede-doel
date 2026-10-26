@@ -288,9 +288,9 @@ body {
 }
 
 .samenwerkingen h2 {
-    font-size: 3rem;
+    font-size: 50px;
+    font-weight: bold;
     margin-bottom: 70px;
-    font-weight: 500;
 }
 
 .samenwerkingen-grid {
@@ -307,10 +307,11 @@ body {
 }
 
 .samenwerking p {
-    font-size: 1.4rem;
+    font-size: 20px;
     line-height: 1.7;
     margin-bottom: 40px;
-    max-width: 320px;
+    max-width: 350px;
+    max-height:200px;
 }
 
 .samenwerking img {
@@ -323,7 +324,7 @@ body {
     background-color: #e78b4c;
     color: #000;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 28px;
     font-weight: 700;
     padding: 20px 40px;
     border-radius: 12px;
