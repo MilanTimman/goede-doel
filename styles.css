@@ -55,7 +55,7 @@ body {
 
 .navbar .donate {
   background-color: rgb(253, 125, 54);
-  color: black;
+  color: #fff;
   padding: 8px 18px;
   border-radius: 30px;
 }
@@ -120,6 +120,7 @@ body {
   padding: 12px 22px;
   border-radius: 6px;
   font-weight: bold;
+  color: #fff;
 }
 
 .knoppie1 {
@@ -129,7 +130,7 @@ body {
   background-color: rgb(253, 125, 54);
   border: 10px none;
   border-radius: 30px;
-  color: black;
+  color: #fff;
 }
 
 .knoppie2 {
@@ -139,7 +140,7 @@ body {
   background-color: rgb(253, 125, 54);
   border: 10px none;
   border-radius: 30px;
-  color: black;
+  color: #fff;
 }
 
 .missie {
@@ -191,7 +192,7 @@ body {
 }
 
 .support-section {
-    padding: 80px 20px;
+    padding: 20px 20px;
     background-color: #fff;
 }
 
@@ -271,6 +272,8 @@ body {
 
 .help-button {
     background: #e38541;
+    color: #fff;
+    font-weight: bold;
     border: none;
     border-radius: 20px;
     padding: 12px 10px;
@@ -322,10 +325,166 @@ body {
 .button-samenwerkingen {
     display: inline-block;
     background-color: #e78b4c;
-    color: #000;
+    color: #fff;
     text-decoration: none;
     font-size: 28px;
     font-weight: 700;
     padding: 20px 40px;
     border-radius: 12px;
+}
+
+.nieuws {
+    background-image: url("img/jarrod-head.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+
+    padding: 50px;
+    position: relative;
+}
+
+.nieuws h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+
+.nieuws-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nieuws-kaart {
+    max-width: 600px;
+    background: #33B5D7;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.nieuws-kaart h3 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.nieuws-kaart p {
+    font-size: 20px;
+    line-height: 0.5;
+}
+
+.lees-meer {
+    display: inline-block;
+    margin-top: 20px;
+    color: blue;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.reviews {
+    padding: 100px 80px;
+    background: #fff;
+}
+
+.reviews-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.reviews-label {
+    color: #33B5D7;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.reviews-header h2 {
+    font-size: 50px;
+    max-width: 900px;
+    line-height: 1.1;
+}
+
+.review-button {
+    background: #33B5D7;
+    color: white;
+    text-decoration: none;
+    padding: 20px 35px;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.review-filters {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.review-filters button {
+    padding: 12px 24px;
+    border-radius: 30px;
+    border: 1px solid #cfcfcf;
+    background: white;
+    cursor: pointer;
+}
+
+.review-cards {
+    display: flex;
+    gap: 30px;
+}
+
+.review-card {
+    background: white;
+    padding: 30px;
+    border-radius: 25px;
+    width: 550px;
+    min-height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.05);
+}
+
+.verified {
+    display: inline-block;
+    background: #E8F7F8;
+    padding: 8px 15px;
+    max-width: fit-content;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.review-text {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    line-height: 1.4;
+    color: #000;
+}
+
+.review-person {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.review-person img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review-person h4 {
+    margin: 0;
+}
+
+.review-person p {
+    margin: 5px 0 0;
+    color: #000;
 }
