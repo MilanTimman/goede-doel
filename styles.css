@@ -20,7 +20,7 @@ body {
 
 .logo {
   background-color: rgb(253, 125, 54);
-  color: black;
+  color: #fff;
   padding: 6px 18px;
   border-radius: 10px;
   border: 10px solid rgb(253, 125, 54);
@@ -116,32 +116,16 @@ body {
  
 .knoppies {
   display: flex;
-  align-items: center;
-  gap: 5px;
-  padding: 12px 22px;
-  border-radius: 6px;
+  gap: 30px;
+}
+
+.knoppies button {
+  border: 2px solid rgb(253, 125, 54);
+  border-radius: 30px;
+  background-color: rgb(253, 125, 54);
+  padding: 12px 24px;
+  color: #fff;
   font-weight: bold;
-  color: #fff;
-}
-
-.knoppie1 {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-  background-color: rgb(253, 125, 54);
-  border: 10px none;
-  border-radius: 30px;
-  color: #fff;
-}
-
-.knoppie2 {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-  background-color: rgb(253, 125, 54);
-  border: 10px none;
-  border-radius: 30px;
-  color: #fff;
 }
 
 .missie {
@@ -185,11 +169,13 @@ body {
 .kaart h3 {
     font-size: 40px;
     margin: 0;
+    color: #fff;
 }
 
 .kaart p {
     font-size: 20px;
     font-weight: bold;
+    color: #B3B3B3;
 }
 
 .support-section {
@@ -592,7 +578,7 @@ body {
     color: #33B5D7;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
 }
 
 .diensten-header h2 {
@@ -670,3 +656,173 @@ body {
     font-weight: bold;
 }
 
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 40px 50px;
+    background-color: #fff;
+}
+
+.contact-left {
+    flex: 1;
+}
+
+.contact-label {
+    color: #33B5D7;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.contact-left h2 {
+    font-size: 50px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.contact-image {
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.contact-form {
+    width: 400px;
+    height: 500px;
+    background: white;
+    padding: 30px;
+    margin-top: 80px;
+    border: 2px solid #c3c3c3;
+    border-radius: 10px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+
+.invoegen {
+    width: 100%;
+    height: 35px;
+    background: white;
+    border: 1px solid #d5d5d5;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.contact-form p {
+    margin: 8px;
+}
+
+.textarea {
+    width: 100%;
+    height: 70px;
+    background: #fff;
+    border: 1px solid #c3c3c3;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.verstuur {
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #000;
+    color: white;
+    padding:30px 50px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid #4b4848;
+}
+
+.footer-info {
+    max-width: 350px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 0px;
+}
+
+.logo-circle {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(253, 125, 54);
+    border-radius: 50%;
+}
+
+.footer-logo h2 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.footer-info p {
+    line-height: 1.5;
+}
+
+.contact-info {
+    margin-top: 0px;
+}
+
+.contact-info p {
+    margin-top: 5px;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-col p {
+    margin-bottom: 5px;
+}
+
+.footer-col h3 {
+    color: rgb(253, 125, 54);
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+
+.footer-col a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.footer-col a:hover {
+    color: rgb(253, 125, 54);
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
