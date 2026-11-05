@@ -705,7 +705,7 @@ body {
     border-radius: 10px;
 }
 
-input,textarea {
+input, textarea {
     width: 300px;
     padding: 10px;
     border: 1px solid #ccc;
