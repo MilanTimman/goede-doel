@@ -113,12 +113,38 @@ body {
 }
 
 .aapfoto {
-  height: auto;
-  width: 450px;
-  margin-left: 100px;
-  margin-top: 50px;
+    display: block;
+    height: auto;
+    width: 450px;
+    margin-left: 100px;
+    margin-top: 50px;
 }
- 
+
+.aap-container {
+    position: relative;
+    display: inline-block;
+} 
+
+.aap-tekst {
+    border: 2px solid rgb(253, 125, 54);
+    border-radius: 15px;
+    background-color: rgb(253, 125, 54);
+    position: absolute;
+    bottom: 25px;       
+    left: 120px;
+    padding: 20px;
+}
+
+.aap-container h2 {
+    color: white;
+    margin: 0 0 10px 0;
+}
+
+.aap-container span {
+    color: white;
+    display: block;
+}
+
 .knoppies {
   display: flex;
   gap: 30px;
